@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {
+            height: 100px;
+            width: 130px;
+            margin: -4px;
+            display: block;
+            border: 1px solid black;
+        }
+        
+        .searchbar {
+            height: 10px;
+            width: 30px;
+        }
+        
+        .nav {
+            color: rgb(22, 22, 21);
+            font-size: 27px;
+            font-weight: bolder;
+            text-align: center;
+            margin: -85px;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+        }
+        
+        .class {
+            background-image: url(bgimg.jpg);
+        }
+        
+        .abhi {
+            text-align: center;
+            color: rgb(22, 22, 21);
+            font-weight: bolder;
+            padding: 142px;
+            margin-right: -86px;
+            padding-right: 108px;
+            padding-left: 47px;
+        }
+        
+        .bg {
+            height: 340px;
+            width: 100%;
+            margin-top: -245px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .option a {
+            padding-left: 60px;
+            padding-right: 60px;
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .option {
+            margin-bottom: 20px;
+        }
+        
+        .option a:hover {
+            padding-left: 60px;
+            padding-right: 60px;
+            text-decoration: none;
+            color: rgb(175, 28, 28);
+            font-size: large;
+            font-weight: bold;
+            border-top: 3px solid blue;
+        }
+        
+        .form input {
+            background-color: aquamarine;
+            color: rgb(255, 34, 34);
+        }
+        
+        .all a {
+            text-align: center;
+            font-size: 23px;
+            border: 3px solid rgb(131, 190, 242);
+            padding: 13px;
+            width: 100px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 8px;
+        }
+        
+        .carss {
+            position: absolute;
+        }
+        
+        .car1 {
+            position: absolute;
+        }
+        
+        .car2 {
+            position: absolute;
+            padding-left: 33%;
+        }
+        
+        .car3 {
+            position: absolute;
+            padding-left: 68%;
+        }
+        
+        .im1 {
+            position: absolute;
+            margin-left: 1px;
+            margin-top: 250px;
+        }
+        
+        .im2 {
+            position: absolute;
+            margin-left: 282px;
+            margin-top: 250px;
+        }
+        
+        .im3 {
+            position: absolute;
+            margin-left: 555px;
+            margin-top: 250px;
+        }
+        
+        .im4 {
+            position: absolute;
+            margin-left: 835px;
+            margin-top: 250px;
+        }
+        
+        .footer1 {
+            margin-top: 1300px;
+            margin-left: 12px;
+            position: absolute;
+        }
+        
+        .footer1 a {
+            color: #70b6b6;
+        }
+        
+        .footer2 a {
+            color: #75a2a2;
+        }
+        
+        .footer3 a {
+            color: #6aa4a4;
+        }
+        
+        .footer2 {
+            margin-top: 1300px;
+            margin-left: 210px;
+            position: absolute;
+        }
+        
+        .footer3 {
+            margin-top: 1300px;
+            margin-left: 360px;
+            position: absolute;
+        }
+        
+        .footer4 {
+            margin-top: 1300px;
+            margin-left: 670px;
+            position: absolute;
+        }
+        
+        .atr1 {
+            position: absolute;
+            margin-left: -26px;
+            margin-top: 13px;
+        }
+        
+        .atr2 {
+            position: absolute;
+            margin-left: 160px;
+            margin-top: -13px;
+        }
+        
+        footer h3 {
+            color: #06060e;
+            font-size: 15px;
+        }
+        
+        .login {
+            z-index: 1;
+            position: absolute;
+            margin-top: 64px;
+            margin-left: 1000px;
+        }
+        
+        .xyz {
+            position: absolute;
+            margin-top: 800px;
+        }
+        
+        .xyz a {
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .xyz1 {
+            position: absolute;
+            margin-top: 800px;
+            padding-left: 280px;
+        }
+        
+        .xyz2 {
+            position: absolute;
+            margin-top: 800px;
+            padding-left: 545px;
+        }
+        
+        .xyz3 {
+            position: absolute;
+            margin-top: 800px;
+            padding-left: 800px;
+        }
+        
+        .hh1 {
+            position: absolute;
+            margin-top: 750px;
+            z-index: 1;
+        }
+        
+        .brand {
+            margin-top: 293px;
+        }
+        
+        .img1 {
+            position: absolute;
+            margin-left: 1px;
+            margin-top: 930px;
+        }
+        
+        .img2 {
+            position: absolute;
+            margin-left: 300px;
+            margin-top: 930px;
+        }
+        
+        .img3 {
+            position: absolute;
+            margin-left: 600px;
+            margin-top: 930px;
+        }
+        
+        .img4 {
+            position: absolute;
+            margin-left: 850px;
+            margin-top: 930px;
+        }
+        
+        .img5 {
+            position: absolute;
+            margin-left: 1120px;
+            margin-top: 930px;
+        }
+        
+        .pp {
+            z-index: 1;
+        }
+        
+        .brd {
+            margin-top: 1255px;
+            margin-left: 2px;
+        }
+        
+        .brd a {
+            font-size: 17px;
+        }
+        
+        .f1 {
+            position: absolute;
+            margin-left: 98px;
+            margin-right: 3px;
+            margin-top: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .f2 {
+            position: absolute;
+            margin-left: 412px;
+            margin-right: 4px;
+            margin-top: 17px;
+            margin-bottom: 5px;
+        }
+        
+        .f3 {
+            position: absolute;
+            margin-left: 737px;
+            margin-right: 5px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .f4 {
+            position: absolute;
+            margin-left: 1062px;
+            margin-right: 6px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+        }
+        
+        .hhh1 {
+            margin-left: 225px;
+            padding-top: 8px;
+            position: absolute;
+        }
+        
+        .hhh2 {
+            margin-left: 540px;
+            padding-top: 11px;
+            position: absolute;
+        }
+        
+        .hhh3 {
+            margin-left: 870px;
+            padding-top: 3px;
+            position: absolute;
+        }
+        
+        .hhh4 {
+            margin-left: 1200px;
+            padding-top: 3px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body class="class">
+    <img src="logo.png" alt="error" class="logo">
+    <div>
+        <nav class="nav">
+            <input type="text" placeholder="search cars and brands eg.swift,or maruti">
+            <button><img src="searchbar.png" alt="" class="searchbar"></button>
+            <select name="Languages">
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Spanish</option>
+                <option>Japanese</option>
+            <option>Russian</option>
+            <option>French</option>
+            </select>
+
+
+        </nav>
+        <div class="login"><a href="login1.html">Login/Register</a></div>
+    </div>
+
+    <div>
+        <nav class="abhi">
+            <select name="Languages">
+                <option>New Cars</option>
+                <option>Search New Cars</option>
+                <option>Popular Cars</option>
+                <option> Latest Carc</option>
+            <option>Popular Brands</option>
+            <option>Upcoming Cars</option>
+            <option>Electric Cars</option>
+            <option>Electric Charging Station</option>
+            <option>Suggestd Cars</option>
+            <option>BS6</option>
+            </select>
+
+
+
+
+            <select name="Languages">
+                <option>Used Car</option>
+                <option>Cars In your Cities</option>
+                <option>Car Dekho Used Cars\</option>
+                <option>Sell Used Cars</option>
+            <option>Used Cars Dellers</option>
+            <option>Used Cars Loan</option>
+            <option>My Listing</option>
+            </select>
+
+
+            <select name="Sell Cars">
+                <option>Sell Cars</option>
+                <option>Sell Cars In Your Cities </option>
+                <option>Sell Cars By Your Valuation</option>
+                <option>Sell Cars By Brands</option>
+            <option>How It Works</option>
+            <option>faQs</option>
+        
+            </select>
+
+
+
+
+            <select name="Compare Cars">
+                <option>Compare Cars</option>
+            </select>
+
+
+
+
+            <select name="Newes&Reviews">
+                <option>Car News</option>
+                <option>Feature Stories</option>
+                <option>Cars Collection</option>
+                <option>Cars Selling</option>
+            <option>Cars Selling Tips</option>
+            <option>Users Reviews</option>
+            <option>Road Test</option>
+            <option>Videos Reviews</option>
+            <option>Write Reviews</option>
+            </select>
+
+
+
+
+            <select name="Car Dekho Ventures">
+                <option>Car Dekho Gaadi Store</option>
+                <option>Car Insurance</option>
+                <option>Health Insurance</option>
+                <option>Term Life Insurance</option>
+            <option>Loan Against CarS</option>
+            <option>Car Tyres</option>
+            </select>
+
+
+
+
+            <select name="More">
+                <option>More</option>
+                <option>Car Loan</option>
+                <option>Emi Calculator</option>
+                <option>Ask any Questions</option>
+            <option>Carrers With Us</option>
+            
+            </select>
+        </nav>
+    </div>
+    <div class="form">
+        <form action="">
+            <div class="hh">
+                <h2>FIND YOUR CAR</h2>
+                By Budget <input type="radio" name="car" id="car"> By Brand<input type="radio" name="car" id="car">
+            </div>
+            <div class="budg">
+                <input type="text" placeholder="enter budget"> <select name="" id="">
+            <option value=""></option>
+            <option value="">Rs.1-1.5lakh</option>
+            <option value="">Rs.2-2.5lakh</option>
+            <option value="">Rs.4-5akh</option>
+            <option value="">Rs.6-7lakh</option>
+            <option value="">Rs.10-15lakh</option>
+        </select></div>
+
+
+    </div>
+    <img src="bg.webp" alt="error" class="bg">
+
+    <h2>The Most Search Cars</h2>
+    <div class="option">
+        <section></section>
+        <NAv>
+            <a href="hatchback.html">HatchBack</a>
+            <a href="suv.html">SUV</a>
+            <a href="muv.html">MUV</a>
+            <a href="sedan.html">Sedan</a>
+        </NAv>
+        </section>
+    </DIV>
+    </DIV>
+    <h2>Latest Cars</h2>
+    <div class="all">
+        <div class="carss">
+            <img src="KWIDCAR.jpg" alt="" height="172px">
+            <h3>Rs.3 lakh</h3>
+            <h3>RS-3-6cr</h3>
+            <a href="">Check Our August Offers</a>
+        </div>
+        <div class="car1">
+            <img src="alto k10.jpg" alt="" height="172px">
+            <h3>Rs.3 lakh</h3>
+            <h3>RS-3-6lakh</h3>
+            <a href="altok10.html">Check Our August Offers</a>
+        </div>
+        <div class="car2">
+            <img src="swift.jpg" alt="" height="172px">
+            <h3>Rs.4 lakh</h3>
+            <h3>RS-4-6lakh</h3>
+            <a href="swift.html">Check Our August Offers</a>
+        </div>
+        <div class="car3">
+            <img src="baleno.jpg" alt="" height="172px">
+            <h3>Rs.5 lakh</h3>
+            <h3>RS-4-6lakh</h3>
+            <a href="baleno.html">Check Our August Offers</a>
+        </div>
+    </div>
+    <h2>up coming cars</h2>
+    <div class="im">
+        <p>up</p>
+        <div class="im1"><img src="con1.jpg" alt="" width="270px" height="350px">
+            <h3> Bugatti Gangloff</h3>
+            <h3>RS-3-7cr</h3>
+            <a href="">Check Our August Offers</a>
+        </div>
+        <div class="im2"><img src="con2.jpg" alt="" width="260px" height="350px">
+            <h3>Bugatti Vision Gran</h3>
+            <h3>RS-6-8cr</h3>
+            <a href="">Check Our August Offers</a>
+        </div>
+        <div class="im3"><img src="con3.jpg" alt="" width="260px" height="350px">
+            <h3>Bugatti La Voiture</h3>
+            <h3>RS-12-23cr</h3>
+            <a href="">Check Our August Offers</a>
+        </div>
+        <div class="im4"><img src="con4.jpg" alt="" width="290px" height="350px">
+            <h3> Bugatti Bolide</h3>
+            <h3>RS-29-65cr</h3>
+            <a href="">Check Our August Offers</a>
+        </div>
+    </div>
+    <div>
+        <h1 class="hh1">Upcoming Cars</h1>
+        <div class="xyz">
+            <a href="n1.html"><img src="ab.jpg" alt="" height="200px" width="200px"></a>
+            <h3>Toyota Land Cruiser</h3>
+            <h3> Rs1.50 CrEstimated Price</h3>
+            <p>Mar 02, 2023 Expected Launch</p>
+
+        </div>
+        <div class="xyz1">
+            <img src="toyota.jpg" alt="" height="200px" width="200px">
+            <h3>Toyota Urban Craiser</h3>
+            <h3>Rs9.50 LakhEstimated </h3>
+            <p> 02, 2022 Expected Launch</p>
+
+        </div>
+        <div class="xyz2">
+            <img src="hh.jpg" alt="" height="200px" width="200px">
+            <h3>Hyundai Nexo</h3>
+            <h3>Rs9.50 LakhEstimated </h3>
+            <p> 02, 2022 Expected Launch</p>
+
+        </div>
+        <div class="xyz3">
+            <img src="kia.jpg" alt="" height="200px" width="200px">
+            <h3>Kia Sportage</h3>
+            <h3>Rs9.50 LakhEstimated </h3>
+            <p> 02, 2022 Expected Launch</p>
+            <a href="kia.html">Alert When Launched</a>
+
+        </div>
+    </div>
+    </div>
+    <div class="brand">
+
+        <P class="pp">Popular Brands</P>
+        <hr>
+        <div class="img1"><img src="lembor.jpg" alt="" width="200px" height="260px">
+            <h3>LOMORGINI</h3>
+
+        </div>
+        <div class="img2">
+            <img src="roll.jpg" alt="" width="200px" height="260px">
+            <h3>ROLLS ROYLLS</h3>
+        </div>
+        <div class="img3"><img src="tesla.jpg" alt="" width="200px" height="260px">
+            <h3>TESLA</h3>
+        </div>
+
+    </div>
+    <div class="img4"><img src="hon.jpg" alt="" width="200px" height="260px">
+        <h3>HONDAI</h3>
+    </div>
+    <div class="img5"><img src="merd.jpg" alt="" width="200px" height="260px">
+        <h3>MURSDESE</h3>
+    </div>
+    <hr>
+    <div class="brd">
+        <h5><a href="">View ALL BRAND</a></h5>
+    </div>
+    <div class="ff">
+        <div class="f1"><img src="creta.jpg" alt="" width="100px" height="100px">
+        </div>
+        <div class="hhh1">
+            <h1>India's #1</h1>
+            <h3>Largest Auto portal</h3>
+        </div>
+
+        <div class="f2"><img src="compare.jpg" alt="" width="100px" height="100px">
+        </div>
+        <div class="hhh2">
+            <h1>CAR SOLD</h1>
+            <h3>Every 4 minutes</h3>
+        </div>
+
+        <div class="f3"><img src="sold.png" alt="" width="100px" height="100px">
+        </div>
+        <div class="hhh3">
+            <h1>OFFERS</h1>
+            <h3>Stay Updated Pay Less</h3>
+        </div>
+        <div class="f4"><img src="offers.png" alt="" width="100px" height="100px">
+        </div>
+
+        <footer>
+            <div class="footer1">
+                <h3>OVERVIEW</h3>
+                <h4><a href="">About Us</a></h4>
+                <h4><a href="">FAQs</a></h4>
+                <h4><a href="">Privacy Policy</a></h4>
+                <h4>
+                    <a href="">Terms & Conditions</a>
+                </h4>
+                <h4>
+                    <a href="">Corprate Polices</a>
+                </h4>
+                <h4>
+                    <a href="">Invester</a>
+                </h4>
+
+
+            </div>
+            <div class="footer2">
+                <h3>OTHER</h3>
+                <h4><a href="">Advertise with Us</a></h4>
+                <h4><a href="">Careers</a></h4>
+                <h4><a href="">Customer Care</a></h4>
+            </div>
+            <div class="footer3">
+                <h3>CONNECT WITH US</h3>
+                <h4><a href="">1800 200 3000 (Toll-Free)</a></h4>
+                <h4><a href="">support@cardekho.co.</a></h4>
+                <h4><a href="">Dealer solutions</a></h4>
+                <h4><a href="">Used Cars Business</a></h4>
+                <h4><a href="">Contact Us</a></h4>
+                <h4><a href="">Feedback</a></h4>
+            </div>
+            <div class="footer4">
+                <hr>
+                <h3>EXPERIENCE CARDEKHO APP</h3>
+                <div class="atr1">
+                    <a href=""><img src="app-store.png" alt="" width="190px"></a>
+                </div>
+                <div class="atr2">
+                    <a href=""><img src="google-play.png" alt="" width="130px"></a>
+                </div>
+            </div>
+
+        </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav1 {
+            color: rgb(22, 22, 21);
+            font-size: 27px;
+            font-weight: bolder;
+            text-align: center;
+            margin: -100px;
+        }
+        
+        .nav1 a {
+            text-decoration: none;
+            margin: 30px;
+        }
+        
+        .nav1 :hover {
+            color: red;
+            border-top: 3px solid rgb(198, 209, 82);
+        }
+        
+        .logo {
+            height: 100px;
+            width: 130px;
+            margin: -4px;
+            display: block;
+            border: 1px solid black;
+        }
+        
+        .searchbar {
+            height: 10px;
+            width: 30px;
+        }
+        
+        .nav {
+            color: rgb(22, 22, 21);
+            font-size: 27px;
+            font-weight: bolder;
+            text-align: center;
+            margin: -85px;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+        }
+        
+        .class {
+            background-image: url(bgimg.jpg);
+        }
+        
+        .abhi {
+            text-align: center;
+            color: rgb(22, 22, 21);
+            font-weight: bolder;
+            padding: 142px;
+            margin-right: -86px;
+            padding-right: 108px;
+            padding-left: 47px;
+        }
+        
+        .bg {
+            height: 340px;
+            width: 100%;
+            margin-top: -245px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .option a {
+            padding-left: 60px;
+            padding-right: 60px;
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .login {
+            position: absolute;
+            margin-top: 64px;
+            margin-left: 1000px;
+        }
+        
+        .iall {}
+        
+        .i1 {
+            position: absolute;
+            padding-top: 0px;
+        }
+        
+        .i2 {
+            position: absolute;
+            padding-left: 270px;
+            padding-top: 0px;
+        }
+        
+        .i3 {
+            position: absolute;
+            padding-left: 540px;
+            padding-top: 0px;
+        }
+        
+        .i4 {
+            position: absolute;
+            padding-left: 814px;
+            padding-top: 0px;
+        }
+        
+        .i5 {
+            position: absolute;
+            padding-top: 180px;
+            padding-left: 500px;
+        }
+        
+        .i6 {
+            position: absolute;
+            padding-top: 180px;
+            padding-left: 60px;
+        }
+        
+        .h2 {
+            margin-top: 120px;
+            color: antiquewhite;
+        }
+        
+        .pp {
+            padding-top: 350px;
+            color: rgb(108, 114, 25);
+        }
+        
+        .ii1 {
+            position: absolute;
+        }
+        
+        .ii2 {
+            position: absolute;
+            padding-left: 320px;
+        }
+        
+        .ii3 {
+            position: absolute;
+            padding-left: 600px;
+        }
+        
+        .ii4 {
+            position: absolute;
+            padding-left: 900px;
+        }
+        
+        .ii5 {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 320px;
+        }
+        
+        .ii6 {
+            position: absolute;
+            margin-top: 200px;
+            padding-left: 600px;
+        }
+        
+        .ii7 {
+            position: absolute;
+            margin-top: -173px;
+            margin-left: -600px;
+        }
+        
+        .ii8 {
+            position: absolute;
+            margin-top: -178px;
+            padding-left: 880px;
+        }
+        
+        .hhh1 {
+            margin-left: 225px;
+            padding-top: 8px;
+            position: absolute;
+        }
+        
+        .hhh2 {
+            margin-left: 540px;
+            padding-top: 11px;
+            position: absolute;
+        }
+        
+        .hhh3 {
+            margin-left: 870px;
+            padding-top: 3px;
+            position: absolute;
+        }
+        
+        .hhh4 {
+            margin-left: 1200px;
+            padding-top: 3px;
+            position: absolute;
+        }
+        
+        .f2 {
+            position: absolute;
+            margin-left: 412px;
+            margin-right: 4px;
+            margin-top: 17px;
+            margin-bottom: 5px;
+        }
+        
+        .f3 {
+            position: absolute;
+            margin-left: 737px;
+            margin-right: 5px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .f4 {
+            position: absolute;
+            margin-left: 1062px;
+            margin-right: 6px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+        }
+        
+        .footer1 {
+            margin-top: 220px;
+            margin-left: 12px;
+            position: absolute;
+        }
+        
+        .footer1 a {
+            color: #70b6b6;
+        }
+        
+        .footer2 a {
+            color: #75a2a2;
+        }
+        
+        .footer3 a {
+            color: #6aa4a4;
+        }
+        
+        .footer2 {
+            margin-top: 220px;
+            margin-left: 210px;
+            position: absolute;
+        }
+        
+        .footer3 {
+            margin-top: 220px;
+            margin-left: 360px;
+            position: absolute;
+        }
+        
+        .footer4 {
+            margin-top: 220px;
+            margin-left: 670px;
+            position: absolute;
+        }
+        
+        .atr1 {
+            position: absolute;
+            margin-left: -26px;
+            margin-top: 13px;
+        }
+        
+        .atr2 {
+            position: absolute;
+            margin-left: 160px;
+            margin-top: -13px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="logo.png" alt="error" class="logo">
+    <div>
+        <nav class="nav">
+            <input type="text" placeholder="search cars and brands eg.swift,or maruti">
+            <button><img src="searchbar.png" alt="" class="searchbar"></button>
+            <select name="languages">
+                <option>english</option>
+                <option>hindi</option>
+                <option>spanish</option>
+                <option>urdu</option>
+            <option>Portuguese.</option>
+            <option>French</option>
+            </select>
+
+
+        </nav>
+        <div class="login"><a href="login1.html">login/register</a></div>
+    </div>
+
+    <div>
+        <nav class="abhi">
+            <select name="languages">
+                <option>new car</option>
+                <option>search new car</option>
+                <option>popular cars</option>
+                <option> latest car</option>
+            <option>popular brands</option>
+            <option>upcoming cars</option>
+            <option>electric car</option>
+            <option>electric charging station</option>
+            <option> suggest me car</option>
+            <option>BS6</option>
+            </select>
+
+
+
+
+            <select name="languages">
+                <option>used car</option>
+                <option>cars in your city</option>
+                <option>car dekho used cars\</option>
+                <option>sell used car</option>
+            <option>usrd car dellers</option>
+            <option>used car loan</option>
+            <option>my listing</option>
+            </select>
+
+
+            <select name="sell car">
+                <option>sell car</option>
+                <option>sell car in your city </option>
+                <option>sell car bu your valuation</option>
+                <option>sell car by brands</option>
+            <option>how it works</option>
+            <option>faQs</option>
+        
+            </select>
+
+
+
+
+            <select name="compare cars">
+                <option>compare cars</option>
+            </select>
+
+
+
+
+            <select name="newes&reviews">
+                <option>car news</option>
+                <option>feture stories</option>
+                <option>cars collection</option>
+                <option>car selling</option>
+            <option>car selling tips</option>
+            <option>user reviews</option>
+            <option>road test</option>
+            <option>video reviews</option>
+            <option>write reviews</option>
+            </select>
+
+
+
+
+            <select name="car dekho ventures">
+                <option>car dekho gaadi store</option>
+                <option>car insurance</option>
+                <option>health insurance</option>
+                <option>term life insurance</option>
+            <option>loan against car</option>
+            <option>car tyres</option>
+            </select>
+
+
+
+
+            <select name="more">
+                <option>more</option>
+                <option>car loan</option>
+                <option>emi calculator</option>
+                <option>ask a question</option>
+            <option>carrers with us</option>
+            
+            </select>
+        </nav>
+    </div>
+
+    <div>
+        <nav class="nav1">
+
+            <a href="">land cruiser</a>
+            <a href="">price</a>
+            <a href="">images</a>
+            <a href="">specs</a>
+            <a href="">user review</a>
+            <a href="">color</a>
+        </nav>
+    </div>
+    <h2 class="h2">exterior images</h2>
+    <div class="iall">
+
+        <div class="i1"> <img src="n1.webp" alt="" height="172px"></div>
+        <div class="i2"> <img src="n2.webp" alt="" height="172px"></div>
+        <div class="i3"> <img src="n3.webp" alt="" height="172px"></div>
+        <div class="i4"> <img src="n4.webp" alt="" height="172px"></div>
+        <div class="i5"> <img src="n5.webp" alt="" height="172px"></div>
+        <div class="i6"> <img src="n6.webp" alt="" height="172px"></div>
+
+    </div>
+    <div class="pp">
+        <h1> Toyota Land Cruiser Latest Update</h1>
+        <p> Update: Pre-bookings at some dealerships are underway for the new-gen Toyota Land Cruiser. Toyota Land Cruiser Launch: It is expected to be launched by March 2023. Toyota Land Cruiser Price: Toyota could price the SUV around Rs 1.5 crore (ex-showroom).
+            Toyota Land Cruiser Engine and Transmission: It gets a 4WD powertrain with a 3.3-litre V6 twin-turbo diesel engine, churning out 309PS and 700Nm. The diesel mill will be paired to a 10-speed automatic.</p>
+    </div>
+    </div>
+    <h1>interior images</h1>
+    <div>
+        <div class="ii1"> <img src="n11.webp" alt="" height="172px"></div>
+        <div class="ii2"> <img src="n22.webp" alt="" height="172px"></div>
+        <div class="ii3"> <img src="n33.webp" alt="" height="172px"></div>
+        <div class="ii4"> <img src="n44.webp" alt="" height="172px"></div>
+        <div class="ii5"> <img src="n55.webp" alt="" height="172px"></div>
+        <div class="ii6"> <img src="n66.webp" alt="" height="172px"></di>
+            <div class="ii7"> <img src="n77.webp" alt="" height="172px"></di>
+                <div class="ii8"> <img src="n88.webp" alt="" height="172px"></di>
+                </div>
+                <h2> only color will be available</h2>
+                <img src="n1.webp" alt="" height="220px">
+                <hr>
+                <div class="hhh1">
+                    <h1>India's #1</h1>
+                    <h3>Largest Auto portal</h3>
+                </div>
+
+                <div class="f2"><img src="compare.jpg" alt="" width="100px" height="100px">
+                </div>
+                <div class="hhh2">
+                    <h1>CAR SOLD</h1>
+                    <h3>Every 4 minute</h3>
+                </div>
+
+                <div class="f3"><img src="sold.png" alt="" width="100px" height="100px">
+                </div>
+                <div class="hhh3">
+                    <h1>OFFERS</h1>
+                    <h3>Stay updated pay less</h3>
+                </div>
+                <div class="f4"><img src="offers.png" alt="" width="100px" height="100px">
+                </div>
+
+                <footer>
+                    <div class="footer1">
+                        <h3>OVERVIEW</h3>
+                        <h4><a href="">about us</a></h4>
+                        <h4><a href="">FAQs</a></h4>
+                        <h4><a href="">privacy policy</a></h4>
+                        <h4>
+                            <a href="">term & condition</a>
+                        </h4>
+                        <h4>
+                            <a href="">corprate polices</a>
+                        </h4>
+                        <h4>
+                            <a href="">invester</a>
+                        </h4>
+
+
+                    </div>
+                    <div class="footer2">
+                        <h3>OTHER</h3>
+                        <h4><a href="">Advertise with Us</a></h4>
+                        <h4><a href="">Careers</a></h4>
+                        <h4><a href="">Customer Care</a></h4>
+                    </div>
+                    <div class="footer3">
+                        <h3>CONNECT WITH US</h3>
+                        <h4><a href="">1800 200 3000 (Toll-Free)</a></h4>
+                        <h4><a href="">support@cardekho.co.</a></h4>
+                        <h4><a href="">Dealer solutions</a></h4>
+                        <h4><a href="">Used Cars Business</a></h4>
+                        <h4><a href="">Contact Us</a></h4>
+                        <h4><a href="">Feedback</a></h4>
+                    </div>
+                    <div class="footer4">
+                        <hr>
+                        <h3>EXPERIENCE CARDEKHO APP</h3>
+                        <div class="atr1">
+                            <a href=""><img src="app-store.png" alt="" width="190px"></a>
+                        </div>
+                        <div class="atr2">
+                            <a href=""><img src="google-play.png" alt="" width="130px"></a>
+                        </div>
+                    </div>
+                </footer>
+
+</body>
+
+</html>
